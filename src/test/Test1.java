@@ -12,7 +12,7 @@ package test;
 	           // 驱动程序名
 	           String driver = "com.mysql.jdbc.Driver";
 	           
-	           // URL指向要访问的数据库名scutcs
+	           // URL指向要访问的数据库名xsg_new
 	           String url = "jdbc:mysql://120.25.227.116:3306/xsg_try?characterEncoding=GB2312";
 
 	           // MySQL配置时的用户名
@@ -22,7 +22,7 @@ package test;
 	           String password = "xsg123456";
 
 	           try { 
-	            // 加载驱动程序
+	            // 加载驱动程序//trynew
 	            Class.forName(driver);
 
 	            // 连续数据库
